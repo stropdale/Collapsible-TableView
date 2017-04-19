@@ -13,6 +13,12 @@
 @interface CollapsibleTableView : UITableView <UITableViewDataSource, UITableViewDelegate, HeaderViewProtocol>
 
 
+
+/**
+ If set to YES then only one item will be expanded at a time
+ */
+@property (nonatomic) BOOL onlyOneExpanded;
+
 /**
  Populates the table view with its content models
 

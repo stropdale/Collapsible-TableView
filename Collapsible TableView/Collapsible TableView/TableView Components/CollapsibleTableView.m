@@ -91,6 +91,30 @@
 #pragma mark - Collapse and Expand Sections
 
 - (void) toggleSection: (NSInteger) section {
+    self.onlyOneExpanded ? [self toggleForSingleExpansion:section] : [self toggleExpansionForSelectedSection:section];
+}
+
+- (void) toggleForSingleExpansion: (NSInteger) section {
+    // Toggle the item the user tapped on
+    SectionModel *tappedSection = self.sections[section];
+    tappedSection.expanded = !tappedSection.expanded;
+    
+    // Set all the other sections to collapsed
+    for (SectionModel *sm in self.sections) {
+        if (sm != tappedSection) {
+            sm.expanded = NO;
+        }
+    }
+    
+    NSIndexSet *reloadSections = [[NSIndexSet alloc] initWithIndexesInRange:NSMakeRange(0, self.sections.count)];
+    
+    [self beginUpdates];
+    [self reloadSections:reloadSections withRowAnimation:UITableViewRowAnimationTop];
+    [self endUpdates];
+    
+}
+
+- (void) toggleExpansionForSelectedSection: (NSInteger) section {
     SectionModel *tappedSection = self.sections[section];
     tappedSection.expanded = !tappedSection.expanded;
     

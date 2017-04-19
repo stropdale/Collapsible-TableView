@@ -22,6 +22,7 @@
     [super viewDidLoad];
     
     self.tableView = [[CollapsibleTableView alloc] initWithFrame:self.view.frame];
+    self.tableView.onlyOneExpanded = YES;
     [self.view addSubview:self.tableView];
     
     [self populateTableViewWithDummyData];
