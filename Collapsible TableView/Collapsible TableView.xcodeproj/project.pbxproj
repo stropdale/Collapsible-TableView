@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4DEB29A1EA6740B005EF0F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB2991EA6740B005EF0F3 /* main.m */; };
+		E4DEB29D1EA6740B005EF0F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB29C1EA6740B005EF0F3 /* AppDelegate.m */; };
+		E4DEB2A01EA6740B005EF0F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB29F1EA6740B005EF0F3 /* ViewController.m */; };
+		E4DEB2A31EA6740B005EF0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DEB2A11EA6740B005EF0F3 /* Main.storyboard */; };
+		E4DEB2A51EA6740B005EF0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DEB2A41EA6740B005EF0F3 /* Assets.xcassets */; };
+		E4DEB2A81EA6740B005EF0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DEB2A61EA6740B005EF0F3 /* LaunchScreen.storyboard */; };
+		E4DEB2B21EA67470005EF0F3 /* SectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB2B11EA67470005EF0F3 /* SectionModel.m */; };
+		E4DEB2B51EA675A8005EF0F3 /* CollapsibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB2B41EA675A8005EF0F3 /* CollapsibleTableView.m */; };
+		E4DEB2B81EA7A20B005EF0F3 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DEB2B71EA7A20B005EF0F3 /* HeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4DEB2951EA6740B005EF0F3 /* Collapsible TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collapsible TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DEB2991EA6740B005EF0F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4DEB29B1EA6740B005EF0F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4DEB29C1EA6740B005EF0F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4DEB29E1EA6740B005EF0F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4DEB29F1EA6740B005EF0F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4DEB2A21EA6740B005EF0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4DEB2A41EA6740B005EF0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4DEB2A71EA6740B005EF0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4DEB2A91EA6740B005EF0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DEB2B01EA67470005EF0F3 /* SectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SectionModel.h; path = "TableView Components/SectionModel.h"; sourceTree = "<group>"; };
+		E4DEB2B11EA67470005EF0F3 /* SectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SectionModel.m; path = "TableView Components/SectionModel.m"; sourceTree = "<group>"; };
+		E4DEB2B31EA675A8005EF0F3 /* CollapsibleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollapsibleTableView.h; path = "TableView Components/CollapsibleTableView.h"; sourceTree = "<group>"; };
+		E4DEB2B41EA675A8005EF0F3 /* CollapsibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollapsibleTableView.m; path = "TableView Components/CollapsibleTableView.m"; sourceTree = "<group>"; };
+		E4DEB2B61EA7A20B005EF0F3 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = "TableView Components/HeaderView.h"; sourceTree = "<group>"; };
+		E4DEB2B71EA7A20B005EF0F3 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = "TableView Components/HeaderView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4DEB2921EA6740B005EF0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4DEB28C1EA6740B005EF0F3 = {
+			isa = PBXGroup;
+			children = (
+				E4DEB2971EA6740B005EF0F3 /* Collapsible TableView */,
+				E4DEB2961EA6740B005EF0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4DEB2961EA6740B005EF0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEB2951EA6740B005EF0F3 /* Collapsible TableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DEB2971EA6740B005EF0F3 /* Collapsible TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEB2AF1EA67412005EF0F3 /* TableView Components */,
+				E4DEB29B1EA6740B005EF0F3 /* AppDelegate.h */,
+				E4DEB29C1EA6740B005EF0F3 /* AppDelegate.m */,
+				E4DEB29E1EA6740B005EF0F3 /* ViewController.h */,
+				E4DEB29F1EA6740B005EF0F3 /* ViewController.m */,
+				E4DEB2A11EA6740B005EF0F3 /* Main.storyboard */,
+				E4DEB2A41EA6740B005EF0F3 /* Assets.xcassets */,
+				E4DEB2A61EA6740B005EF0F3 /* LaunchScreen.storyboard */,
+				E4DEB2A91EA6740B005EF0F3 /* Info.plist */,
+				E4DEB2981EA6740B005EF0F3 /* Supporting Files */,
+			);
+			path = "Collapsible TableView";
+			sourceTree = "<group>";
+		};
+		E4DEB2981EA6740B005EF0F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEB2991EA6740B005EF0F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DEB2AF1EA67412005EF0F3 /* TableView Components */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEB2B01EA67470005EF0F3 /* SectionModel.h */,
+				E4DEB2B11EA67470005EF0F3 /* SectionModel.m */,
+				E4DEB2B31EA675A8005EF0F3 /* CollapsibleTableView.h */,
+				E4DEB2B41EA675A8005EF0F3 /* CollapsibleTableView.m */,
+				E4DEB2B61EA7A20B005EF0F3 /* HeaderView.h */,
+				E4DEB2B71EA7A20B005EF0F3 /* HeaderView.m */,
+			);
+			name = "TableView Components";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4DEB2941EA6740B005EF0F3 /* Collapsible TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DEB2AC1EA6740B005EF0F3 /* Build configuration list for PBXNativeTarget "Collapsible TableView" */;
+			buildPhases = (
+				E4DEB2911EA6740B005EF0F3 /* Sources */,
+				E4DEB2921EA6740B005EF0F3 /* Frameworks */,
+				E4DEB2931EA6740B005EF0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Collapsible TableView";
+			productName = "Collapsible TableView";
+			productReference = E4DEB2951EA6740B005EF0F3 /* Collapsible TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DEB28D1EA6740B005EF0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JSD;
+				TargetAttributes = {
+					E4DEB2941EA6740B005EF0F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6ZBXMFUFJ7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4DEB2901EA6740B005EF0F3 /* Build configuration list for PBXProject "Collapsible TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4DEB28C1EA6740B005EF0F3;
+			productRefGroup = E4DEB2961EA6740B005EF0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4DEB2941EA6740B005EF0F3 /* Collapsible TableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4DEB2931EA6740B005EF0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DEB2A81EA6740B005EF0F3 /* LaunchScreen.storyboard in Resources */,
+				E4DEB2A51EA6740B005EF0F3 /* Assets.xcassets in Resources */,
+				E4DEB2A31EA6740B005EF0F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4DEB2911EA6740B005EF0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DEB2A01EA6740B005EF0F3 /* ViewController.m in Sources */,
+				E4DEB2B81EA7A20B005EF0F3 /* HeaderView.m in Sources */,
+				E4DEB2B51EA675A8005EF0F3 /* CollapsibleTableView.m in Sources */,
+				E4DEB29D1EA6740B005EF0F3 /* AppDelegate.m in Sources */,
+				E4DEB29A1EA6740B005EF0F3 /* main.m in Sources */,
+				E4DEB2B21EA67470005EF0F3 /* SectionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4DEB2A11EA6740B005EF0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DEB2A21EA6740B005EF0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4DEB2A61EA6740B005EF0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4DEB2A71EA6740B005EF0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4DEB2AA1EA6740B005EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4DEB2AB1EA6740B005EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4DEB2AD1EA6740B005EF0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZBXMFUFJ7;
+				INFOPLIST_FILE = "Collapsible TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JunctionSeven.Collapsible-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4DEB2AE1EA6740B005EF0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZBXMFUFJ7;
+				INFOPLIST_FILE = "Collapsible TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JunctionSeven.Collapsible-TableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4DEB2901EA6740B005EF0F3 /* Build configuration list for PBXProject "Collapsible TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DEB2AA1EA6740B005EF0F3 /* Debug */,
+				E4DEB2AB1EA6740B005EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DEB2AC1EA6740B005EF0F3 /* Build configuration list for PBXNativeTarget "Collapsible TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DEB2AD1EA6740B005EF0F3 /* Debug */,
+				E4DEB2AE1EA6740B005EF0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4DEB28D1EA6740B005EF0F3 /* Project object */;
+}
